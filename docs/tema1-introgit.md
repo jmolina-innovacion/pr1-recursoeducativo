@@ -1,3 +1,7 @@
+---
+layout: default
+title: Tema 1 - Introducción a Git
+---
 # Tema 1: Introducción a Git y el Control de Versiones
 
 ## 1. ¿Qué es el Control de Versiones?
