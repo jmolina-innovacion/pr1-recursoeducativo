@@ -5,7 +5,7 @@ title: Tema 1 - Introducción a Git
 # Tema 1: Introducción a Git y el Control de Versiones
 
 ## 1. ¿Qué es el Control de Versiones?
-Imagina que estás escribiendo un trabajo y guardas archivos como `trabajo_v1.doc`, `trabajo_final.doc`, `trabajo_final_final.doc`. Esto es ineficiente y peligroso.
+Imagina que estás escribiendo un trabajo y guardas archivos como `trabajo_v1.doc`, `trabajo_final.doc`, `trabajo_final_borrador.doc`. Esto es ineficiente y peligroso.
 
 **Git** es un sistema de control de versiones distribuido que registra cada cambio realizado en un proyecto. Permite:
 * **Viajar en el tiempo:** Volver a cualquier versión anterior.
