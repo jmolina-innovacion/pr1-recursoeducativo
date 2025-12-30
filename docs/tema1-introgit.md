@@ -23,12 +23,13 @@ git config --global user.email "tu@email.com"
 ```
 
 ## 3. Operaciones Básicas
-El ciclo de vida básico en Git:
+Comandos esenciales para empezar y trabajar:
 
-1. **git init**: Inicializa un repositorio en la carpeta actual.
-2. **git add <archivo>**: Pasa cambios al área de preparación (staging).
-3. **git commit -m "mensaje"**: Guarda los cambios preparados en el historial.
-4. **git status**: Muestra el estado de los archivos (modificados, preparados, etc.).
+1. **git init**: Inicializa un repositorio nuevo en la carpeta actual.
+2. **git clone <url>**: Descarga un proyecto y todo su historial de versiones.
+3. **git add <archivo>**: Pasa cambios al área de preparación (staging).
+4. **git commit -m "mensaje"**: Guarda los cambios preparados en el historial.
+5. **git status**: Muestra el estado de los archivos (modificados, preparados, etc.).
 
 ## 4. Operaciones Avanzadas
 
