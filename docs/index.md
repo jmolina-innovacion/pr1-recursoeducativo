@@ -14,7 +14,4 @@ Este espacio ha sido diseñado bajo la filosofía **"Everything as Code"**, util
 
 ---
 
-### Justificación Pedagógica
-Este recurso utiliza **GitHub** como herramienta de autor para fomentar la alfabetización digital. Al usar el tema *Architect*, garantizamos una lectura clara y profesional, centrada en el contenido técnico y la transparencia del código fuente.
-
 [Ver Repositorio en GitHub](https://github.com/jmolina-innovacion/pr1-recursoeducativo)
