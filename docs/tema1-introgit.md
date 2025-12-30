@@ -25,22 +25,22 @@ git config --global user.email "tu@email.com"
 ## 3. Operaciones Básicas
 Comandos esenciales para empezar y trabajar:
 
-1. **git init**: Inicializa un repositorio nuevo en la carpeta actual.
-2. **git clone <url> **: Descarga un proyecto y todo su historial de versiones.
-3. **git add <archivo>**: Pasa cambios al área de preparación (staging).
-4. **git commit -m "mensaje"**: Guarda los cambios preparados en el historial.
-5. **git status**: Muestra el estado de los archivos (modificados, preparados, etc.).
+1. **`git init`**: Inicializa un repositorio nuevo en la carpeta actual.
+2. **`git clone <url>`**: Descarga un proyecto y todo su historial de versiones.
+3. **`git add <archivo>`**: Pasa cambios al área de preparación (staging).
+4. **`git commit -m "mensaje"`**: Guarda los cambios preparados en el historial.
+5. **`git status`**: Muestra el estado de los archivos (modificados, preparados, etc.).
 
 ## 4. Operaciones Avanzadas
 
 ### Ramas y Fusiones
-* **git branch <nombre>**: Crea una nueva rama.
-* **git checkout <nombre>** (o `git switch`): Cambia de rama.
-* **git merge <rama>**: Fusiona los cambios de una rama en la actual.
+* **`git branch <nombre>`**: Crea una nueva rama.
+* **`git checkout <nombre>`** (o `git switch`): Cambia de rama.
+* **`git merge <rama>`**: Fusiona los cambios de una rama en la actual.
 
 ### Deshacer Cambios
-* **git revert <commit-id>**: Crea un *nuevo* commit que deshace los cambios de uno anterior (seguro para historial público).
-* **git reset**: Mueve el puntero a un estado anterior (peligroso en repos compartidos).
+* **`git revert <commit-id>`**: Crea un *nuevo* commit que deshace los cambios de uno anterior (seguro para historial público).
+* **`git reset`**: Mueve el puntero a un estado anterior (peligroso en repos compartidos).
 
 ### Tags (Etiquetas)
 Se usan para marcar puntos específicos en la historia como importantes (v1.0, v2.0).
@@ -50,8 +50,8 @@ git tag -a v1.0 -m "Versión 1.0 lista"
 
 ## 5. Historia y Trazabilidad
 El historial no solo guarda código, cuenta una historia.
-* **git log**: Muestra el historial de commits.
-* **git log --oneline --graph**: Muestra el historial simplificado y gráfico.
+* **`git log`**: Muestra el historial de commits.
+* **`git log --oneline --graph`**: Muestra el historial simplificado y gráfico.
 
 ## 6. Seguridad en Repositorios
 Proteger tu código es vital.
